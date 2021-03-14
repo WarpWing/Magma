@@ -1,4 +1,5 @@
 import numpy as np
+import math # Importing both math and numpy for now.
 
 def dash(): 
     print('-' * 36)
@@ -8,8 +9,12 @@ def dash():
 def hypocalc():
     a = int(input('What is the value of A?: '))
     b = int(input('What is the value of B?: '))
-    c = a ** 2 + b ** 2 
-    print(c)
+    c = a ** 2 + b ** 2
+    d = math.sqrt(c) 
+    if type(d) is float:
+        print(c)
+    else: 
+        print(d)
     
     
 
