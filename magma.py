@@ -21,16 +21,8 @@ def midpoint(x1, x2, y1, y2):
     print(f"The midpoint would be ({xout},{yout})")
 
 def endpointmid(m1,m2,x1,y1):
-    m1 = m1 * 2 
-    m2 = m2 * 2 
-    if m1 == 0:
-        x2 = x1
-    elif m2 == 0:
-        y2 = x2
-    else: 
-        pass
-    x2 = m1 - x1
-    y2 = m2 - y1
+    x2 = m1 * 2 - x1
+    y2 = m2 * 2 - y1
     print(f"The missing endpoint would be ({x2},{y2})")
 
 dash()
