@@ -20,22 +20,24 @@ def midpoint(x1, x2, y1, y2):
     yout = (y1 + y2) / 2
     print(f"The midpoint would be ({xout},{yout})")
 
-def midpointend(m1,m2,x1,y1)
+def endpointmid(m1,m2,x1,y1):
     m1 = m1 * 2 
     m2 = m2 * 2 
-    if m1 = 0:
-        xout = x1
-    elif m2 = 0
-        yout = x2
+    if m1 == 0:
+        x2 = x1
+    elif m2 == 0:
+        y2 = x2
     else: 
         pass
-    xout =
-    yout = 
+    x2 = m1 - x1
+    y2 = m2 - y1
+    print(f"The missing endpoint would be ({x2},{y2})")
 
 dash()
 print('Welcome to Magma. Please press a number on the list given for the corresponding operation')
 print('1. Hypotensue Calculator')
 print('2. Midpoint Calculator from x1,y1 and x2,y2')
+print('3. Endpoint Calculator from Midpoint and x1,y1')
 dash()
 x = input('What would you like to do: ')
 
@@ -50,6 +52,12 @@ elif x == "2":
     x2 = int(input('What is the value of x2: '))
     y2 = int(input('What is the value of y2?: '))
     midpoint(x1, x2, y1, y2)
+elif x == "3":
+    m1 = int(input('What is the value of m1?: '))
+    m2 = int(input('What is the value of m2?: '))
+    x1 = int(input('What is the value of x1: '))
+    y1 = int(input('What is the value of y1?: '))
+    endpointmid(m1,m2,x1,y1)
 else:
     exit()
 
