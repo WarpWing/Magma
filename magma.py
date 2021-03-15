@@ -24,6 +24,11 @@ def endpointmid(m1,m2,x1,y1):
     x2 = m1 * 2 - x1
     y2 = m2 * 2 - y1
     print(f"The missing endpoint would be ({x2},{y2})")
+def slope(x1,y1,x2,y2):
+    Ydiff = y2 - y1 
+    Xdiff = x2 - x1
+    slope - Ydiff / Xdiff
+    print(f"The slope would be {Ydiff} / {Xdiff} or {slope} ")
 
 dash()
 print('Welcome to Magma by Ty Chermsirivatana. Please press a number on the list given for the corresponding operation')
