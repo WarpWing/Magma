@@ -34,7 +34,7 @@ def endpointmid(m1,m2,x1,y1):
     print(f"The missing endpoint would be ({x2},{y2})")
 
 dash()
-print('Welcome to Magma. Please press a number on the list given for the corresponding operation')
+print('Welcome to Magma by Ty Chermsirivatana. Please press a number on the list given for the corresponding operation')
 print('1. Hypotensue Calculator')
 print('2. Midpoint Calculator from x1,y1 and x2,y2')
 print('3. Endpoint Calculator from Midpoint and x1,y1')
