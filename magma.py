@@ -43,20 +43,26 @@ x = input('What would you like to do: ')
 
 
 if x == "1":
+    dash()
     a = int(input('What is the value of A?: '))
     b = int(input('What is the value of B?: '))
+    dash()
     hypocalc(a,b)
 elif x == "2":
+    dash()
     x1 = int(input('What is the value of x1?: '))
     y1 = int(input('What is the value of y1?: '))
     x2 = int(input('What is the value of x2: '))
     y2 = int(input('What is the value of y2?: '))
+    dash()
     midpoint(x1, x2, y1, y2)
 elif x == "3":
+    dash()
     m1 = int(input('What is the value of m1?: '))
     m2 = int(input('What is the value of m2?: '))
     x1 = int(input('What is the value of x1: '))
     y1 = int(input('What is the value of y1?: '))
+    dash()
     endpointmid(m1,m2,x1,y1)
 else:
     exit()
