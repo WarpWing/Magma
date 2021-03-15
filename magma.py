@@ -20,9 +20,14 @@ def midpoint(x1, x2, y1, y2):
     yout = (y1 + y2) / 2
     print(f"The midpoint would be ({xout},{yout})")
 
-    
-    
-
+def midpointend(m1,m2,x1,y1)
+    m1 = m1 * 2 
+    m2 = m2 * 2 
+    if m1 = 0:
+        xout = x1
+    elif m2 = 0
+        yout = x2
+    yout = 
 
 dash()
 print('Welcome to Magma. Please press a number on the list given for the corresponding operation')
