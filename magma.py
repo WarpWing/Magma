@@ -24,7 +24,7 @@ def endpointmid(m1,m2,x1,y1):
     x2 = m1 * 2 - x1
     y2 = m2 * 2 - y1
     print(f"The missing endpoint would be ({x2},{y2})")
-def slope(x1,y1,x2,y2):
+def slope(x1, x2, y1, y2):
     Ydiff = y2 - y1 
     Xdiff = x2 - x1
     slope - Ydiff / Xdiff
@@ -35,6 +35,7 @@ print('Welcome to Magma by Ty Chermsirivatana. Please press a number on the list
 print('1. Hypotensue Calculator')
 print('2. Midpoint Calculator from x1,y1 and x2,y2')
 print('3. Endpoint Calculator from Midpoint and x1,y1')
+print('4. Slope Calculator from Rise over Run (Difference in Y over Difference in X)')
 dash()
 x = input('What would you like to do: ')
 
@@ -61,6 +62,12 @@ elif x == "3":
     y1 = int(input('What is the value of y1?: '))
     dash()
     endpointmid(m1,m2,x1,y1)
+elif x == "4":
+    x1 = int(input('What is the value of x1?: '))
+    x2 = int(input('What is the value of x2: '))
+    y1 = int(input('What is the value of y1?: '))
+    y2 = int(input('What is the value of y2?: '))
+    slope(x1, x2, y1, y2)
 else:
     exit()
 
