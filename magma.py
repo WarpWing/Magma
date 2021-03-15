@@ -28,7 +28,7 @@ def slope(x1, x2, y1, y2):
     Ydiff = y2 - y1 
     Xdiff = x2 - x1
     slope - Ydiff / Xdiff
-    print(f"The slope would be {Ydiff} / {Xdiff} or {slope} ")
+    print(f"The slope would be {Ydiff} / {Xdiff} or {slope}")
 
 dash()
 print('Welcome to Magma by Ty Chermsirivatana. Please press a number on the list given for the corresponding operation')
