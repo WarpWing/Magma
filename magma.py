@@ -27,6 +27,9 @@ def midpointend(m1,m2,x1,y1)
         xout = x1
     elif m2 = 0
         yout = x2
+    else: 
+        pass
+    xout =
     yout = 
 
 dash()
